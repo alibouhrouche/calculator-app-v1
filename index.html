@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Calculator app</title>
+
+  <link rel="stylesheet" href="./src/style.scss">
+</head>
+<body>
+  <main>
+    <div class="calc-top">
+      <div class="calc-logo">calc</div>
+      <div class="calc-toggle">
+        <div class="calc-text">Theme</div>
+        <div class="calc-switch">
+          <div class="calc-switch_text">
+            <span>1</span><span>2</span><span>3</span>
+          </div>
+          <div id="theme" class="calc-toggle_bg">
+            <div id="theme-switch" class="calc-toggle_switch"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div id="scr" class="calc-scr">0</div>
+    <div class="calc-keys">
+        <button class="calc-key" id="key7">7</button>
+        <button class="calc-key" id="key8">8</button>
+        <button class="calc-key" id="key9">9</button>
+        <button class="calc-key" id="keyDel">del</button>
+        <button class="calc-key" id="key4">4</button>
+        <button class="calc-key" id="key5">5</button>
+        <button class="calc-key" id="key6">6</button>
+        <button class="calc-key" id="keyAdd">+</button>
+        <button class="calc-key" id="key1">1</button>
+        <button class="calc-key" id="key2">2</button>
+        <button class="calc-key" id="key3">3</button>
+        <button class="calc-key" id="keySub">-</button>
+        <button class="calc-key" id="keyComma">.</button>
+        <button class="calc-key" id="key0">0</button>
+        <button class="calc-key" id="keyDiv">/</button>
+        <button class="calc-key" id="keyMul">x</button>
+        <button class="calc-key" id="keyReset">reset</button>
+        <button class="calc-key" id="keyEqual">=</button>
+    </div>
+  </main>  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://ali.js.org/">Ali Bouhrouche</a>.
+  </div>
+  <script type="module" src="./src/main.ts"></script>
+</body>
+</html>
